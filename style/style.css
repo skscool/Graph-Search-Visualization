@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+table{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-color: white;
+  position: relative;
+  left: 30%;
+  top: 9%;
+  margin: 5px;
+  padding: 10px;
+  border-collapse: collapse;
+  width: 590px;
+  height: 590px;
+}
+
+td, th{
+  padding: 10px;
+  width: 18px;
+  height: 18px;
+  transition: all 1s;
+  transition-property: background-color, border-color, border-style, box-shadow;
+}
+
+#controls{
+  position: fixed;
+  left: 25px;
+  top: 40px;
+  width: 200px;
+  height: 500px;
+}
+
+#msgContainer{
+  position: absolute;
+  left: 80%;
+  top: 3%;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 3px grey;
+}
+
+.algoButton, .ctrlButton{
+  width: 100px;
+  font-size: 1.2em;
+  margin: 8px;
+  padding: 4px;
+}
